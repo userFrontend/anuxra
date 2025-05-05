@@ -13,6 +13,8 @@ body {
 
 /* Header */
 header {
+
+header{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -147,4 +149,45 @@ nav a:hover {
     flex-direction: column;
     align-items: center;
   }
+}
+  justify-content: space-between;
+  padding: 0 300px;
+}
+
+header .logo-site img{
+  height: 100px;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-image: url(../images/hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+}
+
+.hero .hero-set{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: -40px;
+  padding: 50px;
+  background-color: white;
 }
