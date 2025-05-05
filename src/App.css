@@ -10,6 +10,12 @@ header{
   align-items: center;
   justify-content: space-between;
   padding: 0 300px;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 header .logo-site img{
@@ -21,11 +27,14 @@ ul{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 40px;
 }
 a{
+  font-family: sans-serif;
   text-decoration: none;
-  color: black;
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
 }
 
 .hero{
