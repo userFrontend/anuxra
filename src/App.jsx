@@ -4,12 +4,18 @@ function App() {
   return (
     <>
       <header>
-        <div className="logo-site"></div>
+        <div className="logo-site">
+          <img src="/images/logo.png" alt="logo" />
+        </div>
         <nav>
           <ul>
             <li>
               <a href="#">About Us</a>
+            </li>
+            <li>
               <a href="#">Contact Us</a>
+            </li>
+            <li>
               <a href="#">(666) 412-2323</a>
             </li>
           </ul>
@@ -17,11 +23,13 @@ function App() {
       </header>
       <main>
         <section className='hero'>
-          <h1>MAKING GREAT THINGS HAPPEN WITH
-          <span>BNG CARGO</span></h1>
-          <h4>NEWER TRUCKS</h4>
-          <h4>FAST AND SAFE DELIVERY</h4>
-          <h4>DEDICATED DISPATCHERS</h4>
+          <div className="content">
+            <h1>MAKING GREAT THINGS HAPPEN WITH
+            <span>BNG CARGO</span></h1>
+            <h4>NEWER TRUCKS</h4>
+            <h4>FAST AND SAFE DELIVERY</h4>
+            <h4>DEDICATED DISPATCHERS</h4>
+          </div>
           <div className="hero-set">
             <div className="set-item">
               <img src="" alt="" />
